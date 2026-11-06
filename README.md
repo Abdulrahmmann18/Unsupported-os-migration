@@ -18,10 +18,8 @@ A lab that simulates migrating a server whose operating system has no supported 
 
 | Path | Content |
 |---|---|
-| `docs/architecture.png` | Architecture diagram |
-| `docs/screenshots/` | Step-by-step screenshots (redact account IDs first) |
-| `scripts/hyperv-host.ps1` | PowerShell commands for the Hyper-V host |
-| `scripts/import-ami.sh` | AWS CLI commands for upload and import |
+| `Architecture/architecture.png` | Architecture diagram |
+| `Snapshots/` | Step-by-step screenshots |
 
 ## Key points
 
