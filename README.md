@@ -2,7 +2,7 @@
 
 A lab that simulates migrating a server whose operating system has no supported EC2 AMI (Windows 11). An EC2 instance with nested virtualization acts as the on-premises hypervisor. A Windows 11 VM is built on it with Hyper-V, exported, uploaded to S3, imported as an AMI with VM Import, and launched as a new EC2 instance.
 
-![Architecture](docs/architecture.png)
+![Architecture](Architecture/architecture.png)
 
 ## Flow
 
