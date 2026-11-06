@@ -27,7 +27,3 @@ A lab that simulates migrating a server whose operating system has no supported 
 - Nested virtualization is an instance CPU option; without it Hyper-V cannot start a VM.
 - `import-image` needs `--license-type BYOL` and `--boot-mode uefi` for this disk.
 - The lab security group opens all TCP ports to `0.0.0.0/0`. Use it only for short-lived labs and restrict the source in real use.
-
-## Notes
-
-Scripts follow the commands shown in the lab screenshots; commands marked "reference" are the standard way to do a step that was done in the GUI. Replace bucket names, paths and IDs with your own.
